@@ -1,0 +1,210 @@
+.body{
+    background-color: #0D1117;
+    color: white;
+    line-height: 1.7;
+    font-size: 16px;
+    margin:0;
+    overflow-x: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.nav-bar a img{
+    height:28px;
+    width: 27px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    margin-right: 4px;
+}
+
+.nav-tag{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #0D1118;
+    z-index: 90;
+    box-shadow: 1px 1px 1px black;
+}
+
+.nav-bar{
+    display: flex;
+    margin-top: 12px;
+    color: white;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.nav-bar a{
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    text-decoration: none;
+}
+
+.input{
+    border-radius: 5px;
+    background: transparent;
+    border: 0.3px solid #9ba3b4;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+}
+
+.ul-list{
+    margin-top: 6px;
+    font-weight: 300;
+}
+
+.ul-list li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.ul-list li a{
+    text-decoration: none;
+    color: #9ba3b4;
+}
+
+.nav-bar span{
+    font-weight: 450;
+    font-size: 22px;
+    color:#c3d0e5 ;
+}
+.forms{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-bottom: 5px;
+}
+
+.nav-bottom{
+    margin: 8px;
+    color: #c3d0e5;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bottom a{
+    text-decoration: underline;
+    color: #4daafc;
+}
+
+.main-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#c3d0e5;
+    font-size: 70px;
+    font-weight: 700;
+    padding-left: 375px;
+    padding-right:250px ;
+    margin-top: 25px;
+}
+
+main{
+    padding: 70px;
+}
+
+.dwl-btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}   
+
+.dwl-btn .mac{
+    padding:12px 32px;
+    margin-right: 10px;
+    color: white;
+    font-weight:500;
+    font-size: 18px;
+}
+
+.dwl-btn .copilot{
+    padding: 12px 28px;
+    background-color: #25292E;
+    border: 0.3px solid #c3d0e5;
+    color: #c3d0e5;
+    font-size: 18px;
+}
+
+.dwl-lb{
+    display: flex;
+    justify-content: center;
+    color: #9FB1D1;
+    font-size: 12px;
+}
+
+.dwl-lb a{
+    text-decoration: underline;
+    color: #4daafc;
+}
+
+.visible{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    opacity: 0;
+}
+
+.visible a{
+    color: #9FB1D1;
+}
+
+.disp:hover .visible{
+    visibility: visible;
+    opacity: 1;
+    color: #9FB1D1;
+}
+
+.img-video ,.card-containers{
+    margin-left: 25px;
+    margin-right: 20px
+}
+
+.img-video img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card-containers{
+    margin-top: 150px;
+    opacity: 0.9;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container{
+    background-color: rgba(255,255,255,0.04);
+    margin-right: 40px;
+}
+
+.card-container p{
+    color: #9fb1d1;
+    font-weight: 400;
+}
+
+.card-container h2{
+    color: #c3d0e5;
+    font-weight: 450;
+    font-size:18px
+}
+
+.card-container{
+    padding: 20px 30px 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 2px #9FB1D1;
+}
+
+.card-img img{
+    width: 100%;
+}
