@@ -163,7 +163,7 @@ main{
     color: #9FB1D1;
 }
 
-.img-video ,.card-containers{
+.img-video ,.card-containers, .swimlane{
     margin-left: 25px;
     margin-right: 20px
 }
@@ -175,7 +175,12 @@ main{
 
 .card-containers{
     margin-top: 150px;
+    opacity: 0.6;
+}
+
+.card-containers:hover{
     opacity: 0.9;
+    transition: opacity 0.5s ease-in;
 }
 
 .cards{
@@ -207,4 +212,43 @@ main{
 
 .card-img img{
     width: 100%;
+}
+
+.swimlane{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:100px;
+    opacity: 0.6;
+}
+
+.swimlane:hover{
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+
+.swimlane-con{
+    margin-right: 45px;
+    flex-basis: 33%;
+}
+.swimlane-con a{
+    text-decoration: underline;
+    color:#4daafc
+}
+
+.img-info img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img-info{
+    flex-basis: 67%;
+}
+
+.swimlane h2{
+    color: #c3d0e5;
+}
+
+.swimlane p{
+    color: #9fb1d1;
 }
